@@ -14,6 +14,7 @@ driver = webdriver.Chrome("chromedriver")
 
 event_info = []
 
+
 zpower_login(username, password, driver)
 event_data, driver = get_event_page_info(event_info, driver)
 event_results, event_elevations = get_event_data(driver,event_data,zid='zid')
