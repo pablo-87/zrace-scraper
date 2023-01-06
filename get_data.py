@@ -5,11 +5,11 @@ from pathlib import Path
 from scrap_functions import zpower_login,get_event_page_info, get_event_data
 
 # Zwift credentials
-username = 'ppalamarchuk87@gmail.com'
-password = 'tr0t5kyvgn'
+username = 'your_zwift_account_email'
+password = 'your_zwift_account_psswrd'
 
 ## Make sure to pass in the folder used for storing/downloading chromedriver
-check_driver('C:/Users/USUARIO/Documents/Proyectos/zwift_racing_scrap')
+check_driver()
 driver = webdriver.Chrome("chromedriver")
 
 event_info = []
